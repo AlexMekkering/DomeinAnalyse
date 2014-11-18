@@ -1,0 +1,1111 @@
+@prefix :      <file:///C:/ABI/DAWorkspace/DomeinAnalyse/#> .
+@prefix pizza: <http://www.co-ode.org/ontologies/pizza/pizza.owl> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix fresnel: <http://www.w3.org/2004/09/fresnel#> .
+@prefix owf:   <http://is.cs.ou.nl/OWF/#> .
+
+:HotSpicedBeefToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 0 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:HotSpicedBeefTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:CheeseToppingLens  a            fresnel:Lens ;
+        owf:xpos                 3500 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:CheeseTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:NamedPizzaLens  a               fresnel:Lens ;
+        owf:xpos                 6020 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:NamedPizza ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:DeepPanBaseLens  a              fresnel:Lens ;
+        owf:xpos                 5180 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:DeepPanBase ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isBaseOf pizza:hasIngredient pizza:isIngredientOf ) .
+
+:PizzaLens  a                    fresnel:Lens ;
+        owf:xpos                 4200 ;
+        owf:ypos                 628 ;
+        fresnel:classLensDomain  pizza:Pizza ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:GarlicToppingLens  a            fresnel:Lens ;
+        owf:xpos                 0 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:GarlicTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:SauceToppingLens  a             fresnel:Lens ;
+        owf:xpos                 3780 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:SauceTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:IceCreamLens  a                 fresnel:Lens ;
+        owf:xpos                 5740 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:IceCream ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasIngredient pizza:isIngredientOf pizza:hasBase pizza:hasTopping ) .
+
+:MushroomLens  a                 fresnel:Lens ;
+        owf:xpos                 0 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Mushroom ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:MeatToppingLens  a              fresnel:Lens ;
+        owf:xpos                 4620 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:MeatTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:TobascoPepperSauceLens
+        a                        fresnel:Lens ;
+        owf:xpos                 10640 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:TobascoPepperSauce ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:RosaLens  a                     fresnel:Lens ;
+        owf:xpos                 0 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Rosa ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:SohoLens  a                     fresnel:Lens ;
+        owf:xpos                 0 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Soho ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:GreenPepperToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 4200 ;
+        owf:ypos                 1334 ;
+        fresnel:classLensDomain  pizza:GreenPepperTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:SpicyPizzaEquivalentLens
+        a                        fresnel:Lens ;
+        owf:xpos                 6020 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:SpicyPizzaEquivalent ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:hasToppingFormat  a                  fresnel:Format ;
+        fresnel:group                 :pizzaGroup ;
+        fresnel:label                 "hasTopping" ;
+        fresnel:propertyFormatDomain  pizza:hasTopping .
+
+:PineKernelsLens  a              fresnel:Lens ;
+        owf:xpos                 6720 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:PineKernels ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:HotGreenPepperToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 4900 ;
+        owf:ypos                 1500 ;
+        fresnel:classLensDomain  pizza:HotGreenPepperTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:MildLens  a                     fresnel:Lens ;
+        owf:xpos                 4480 ;
+        owf:ypos                 628 ;
+        fresnel:classLensDomain  pizza:Mild ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:SloppyGiuseppeLens  a           fresnel:Lens ;
+        owf:xpos                 0 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:SloppyGiuseppe ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:FourSeasonsLens  a              fresnel:Lens ;
+        owf:xpos                 1960 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:FourSeasons ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:PizzaToppingLens  a             fresnel:Lens ;
+        owf:xpos                 5600 ;
+        owf:ypos                 628 ;
+        fresnel:classLensDomain  pizza:PizzaTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf pizza:hasIngredient pizza:isIngredientOf pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:ThinAndCrispyPizzaLens
+        a                        fresnel:Lens ;
+        owf:xpos                 4900 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:ThinAndCrispyPizza ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:CajunLens  a                    fresnel:Lens ;
+        owf:xpos                 10920 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Cajun ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:hasIngredientFormat  a               fresnel:Format ;
+        fresnel:group                 :pizzaGroup ;
+        fresnel:label                 "hasIngredient" ;
+        fresnel:propertyFormatDomain  pizza:hasIngredient .
+
+:CaperToppingLens  a             fresnel:Lens ;
+        owf:xpos                 3920 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:CaperTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:ThinAndCrispyBaseLens
+        a                        fresnel:Lens ;
+        owf:xpos                 3220 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:ThinAndCrispyBase ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isBaseOf ) .
+
+:LaReineLens  a                  fresnel:Lens ;
+        owf:xpos                 840 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:LaReine ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:FruitToppingLens  a             fresnel:Lens ;
+        owf:xpos                 4340 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:FruitTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:NutToppingLens  a               fresnel:Lens ;
+        owf:xpos                 4060 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:NutTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:MargheritaLens  a               fresnel:Lens ;
+        owf:xpos                 8960 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Margherita ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:PeperoniSausageToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 7840 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:PeperoniSausageTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:RocketToppingLens  a            fresnel:Lens ;
+        owf:xpos                 2240 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:RocketTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:SpicyPizzaLens  a               fresnel:Lens ;
+        owf:xpos                 5180 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:SpicyPizza ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:PepperToppingLens  a            fresnel:Lens ;
+        owf:xpos                 10360 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:PepperTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:OnionToppingLens  a             fresnel:Lens ;
+        owf:xpos                 5600 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:OnionTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:FourCheesesToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 2520 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:FourCheesesTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:PrinceCarloLens  a              fresnel:Lens ;
+        owf:xpos                 11480 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:PrinceCarlo ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:TomatoToppingLens  a            fresnel:Lens ;
+        owf:xpos                 8120 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:TomatoTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:ParmaHamToppingLens  a          fresnel:Lens ;
+        owf:xpos                 5040 ;
+        owf:ypos                 1334 ;
+        fresnel:classLensDomain  pizza:ParmaHamTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:RosemaryToppingLens  a          fresnel:Lens ;
+        owf:xpos                 0 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:RosemaryTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:isIngredientOfFormat
+        a                             fresnel:Format ;
+        fresnel:group                 :pizzaGroup ;
+        fresnel:label                 "isIngredientOf" ;
+        fresnel:propertyFormatDomain  pizza:isIngredientOf .
+
+:NonVegetarianPizzaLens
+        a                        fresnel:Lens ;
+        owf:xpos                 5740 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:NonVegetarianPizza ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:UnclosedPizzaLens  a            fresnel:Lens ;
+        owf:xpos                 4480 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:UnclosedPizza ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:VegetarianPizzaEquivalent1Lens
+        a                        fresnel:Lens ;
+        owf:xpos                 2940 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:VegetarianPizzaEquivalent1 ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:NapoletanaLens  a               fresnel:Lens ;
+        owf:xpos                 1120 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Napoletana ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:VenezianaLens  a                fresnel:Lens ;
+        owf:xpos                 2800 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Veneziana ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:SweetPepperToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 4760 ;
+        owf:ypos                 1334 ;
+        fresnel:classLensDomain  pizza:SweetPepperTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:CaprinaLens  a                  fresnel:Lens ;
+        owf:xpos                 5320 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Caprina ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:CajunSpiceToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 12040 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:CajunSpiceTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf pizza:hasIngredient pizza:isIngredientOf pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:HotLens  a                      fresnel:Lens ;
+        owf:xpos                 5040 ;
+        owf:ypos                 628 ;
+        fresnel:classLensDomain  pizza:Hot ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:FoodLens  a                     fresnel:Lens ;
+        owf:xpos                 4760 ;
+        owf:ypos                 414 ;
+        fresnel:classLensDomain  pizza:Food ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasIngredient pizza:isIngredientOf pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:ChickenToppingLens  a           fresnel:Lens ;
+        owf:xpos                 8680 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:ChickenTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:RedOnionToppingLens  a          fresnel:Lens ;
+        owf:xpos                 4480 ;
+        owf:ypos                 1334 ;
+        fresnel:classLensDomain  pizza:RedOnionTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:FiorentinaLens  a               fresnel:Lens ;
+        owf:xpos                 7560 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Fiorentina ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:VegetarianPizzaEquivalent2Lens
+        a                        fresnel:Lens ;
+        owf:xpos                 3220 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:VegetarianPizzaEquivalent2 ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:SlicedTomatoToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 5600 ;
+        owf:ypos                 1334 ;
+        fresnel:classLensDomain  pizza:SlicedTomatoTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:GorgonzolaToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 11760 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:GorgonzolaTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf pizza:hasIngredient pizza:isIngredientOf pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:MozzarellaToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 0 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:MozzarellaTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:FishToppingLens  a              fresnel:Lens ;
+        owf:xpos                 6580 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:FishTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf pizza:hasIngredient pizza:isIngredientOf pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:MeatyPizzaLens  a               fresnel:Lens ;
+        owf:xpos                 4620 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:MeatyPizza ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:MediumLens  a                   fresnel:Lens ;
+        owf:xpos                 5320 ;
+        owf:ypos                 628 ;
+        fresnel:classLensDomain  pizza:Medium ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:VegetarianPizzaLens  a          fresnel:Lens ;
+        owf:xpos                 6860 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:VegetarianPizza ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:ParmesanToppingLens  a          fresnel:Lens ;
+        owf:xpos                 8400 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:ParmesanTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:hasCountryOfOriginFormat
+        a                             fresnel:Format ;
+        fresnel:group                 :pizzaGroup ;
+        fresnel:label                 "hasCountryOfOrigin" ;
+        fresnel:propertyFormatDomain  pizza:hasCountryOfOrigin .
+
+:MixedSeafoodToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 280 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:MixedSeafoodTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:QuattroFormaggiLens  a          fresnel:Lens ;
+        owf:xpos                 9800 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:QuattroFormaggi ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:SpinachToppingLens  a           fresnel:Lens ;
+        owf:xpos                 7280 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:SpinachTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:ValuePartitionLens  a           fresnel:Lens ;
+        owf:xpos                 5460 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:ValuePartition ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:SpicinessLens  a                fresnel:Lens ;
+        owf:xpos                 5040 ;
+        owf:ypos                 414 ;
+        fresnel:classLensDomain  pizza:Spiciness ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:VegetarianToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 4340 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:VegetarianTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:PrawnsToppingLens  a            fresnel:Lens ;
+        owf:xpos                 1680 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:PrawnsTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:PizzaBaseLens  a                fresnel:Lens ;
+        owf:xpos                 4760 ;
+        owf:ypos                 628 ;
+        fresnel:classLensDomain  pizza:PizzaBase ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isBaseOf pizza:hasIngredient pizza:isIngredientOf ) .
+
+:SundriedTomatoToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 5320 ;
+        owf:ypos                 1334 ;
+        fresnel:classLensDomain  pizza:SundriedTomatoTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:SultanaToppingLens  a           fresnel:Lens ;
+        owf:xpos                 0 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:SultanaTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:ThingLens  a                    fresnel:Lens ;
+        owf:xpos                 4900 ;
+        owf:ypos                 50 ;
+        fresnel:classLensDomain  pizza:Thing ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:VegetableToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 4900 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:VegetableTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:AmericanLens  a                 fresnel:Lens ;
+        owf:xpos                 3080 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:American ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:ParmenseLens  a                 fresnel:Lens ;
+        owf:xpos                 0 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Parmense ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:DomainConceptLens  a            fresnel:Lens ;
+        owf:xpos                 4060 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:DomainConcept ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:GiardinieraLens  a              fresnel:Lens ;
+        owf:xpos                 1400 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Giardiniera ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:SicilianaLens  a                fresnel:Lens ;
+        owf:xpos                 5040 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Siciliana ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:MushroomToppingLens  a          fresnel:Lens ;
+        owf:xpos                 5880 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:MushroomTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:PetitPoisToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 560 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:PetitPoisTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:CapricciosaLens  a              fresnel:Lens ;
+        owf:xpos                 6440 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:Capricciosa ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:RealItalianPizzaLens
+        a                        fresnel:Lens ;
+        owf:xpos                 5460 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:RealItalianPizza ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:isBaseOfFormat  a                    fresnel:Format ;
+        fresnel:group                 :pizzaGroup ;
+        fresnel:label                 "isBaseOf" ;
+        fresnel:propertyFormatDomain  pizza:isBaseOf .
+
+:hasBaseFormat  a                     fresnel:Format ;
+        fresnel:group                 :pizzaGroup ;
+        fresnel:label                 "hasBase" ;
+        fresnel:propertyFormatDomain  pizza:hasBase .
+
+:OliveToppingLens  a             fresnel:Lens ;
+        owf:xpos                 3360 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:OliveTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:JalapenoPepperToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 3920 ;
+        owf:ypos                 1334 ;
+        fresnel:classLensDomain  pizza:JalapenoPepperTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:isToppingOfFormat  a                 fresnel:Format ;
+        fresnel:group                 :pizzaGroup ;
+        fresnel:label                 "isToppingOf" ;
+        fresnel:propertyFormatDomain  pizza:isToppingOf .
+
+:PeperonataToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 5880 ;
+        owf:ypos                 1334 ;
+        fresnel:classLensDomain  pizza:PeperonataTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:SpicyToppingLens  a             fresnel:Lens ;
+        owf:xpos                 3500 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:SpicyTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:CountryLens  a                  fresnel:Lens ;
+        owf:xpos                 6300 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:Country ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:hasSpicinessFormat  a                fresnel:Format ;
+        fresnel:group                 :pizzaGroup ;
+        fresnel:label                 "hasSpiciness" ;
+        fresnel:propertyFormatDomain  pizza:hasSpiciness .
+
+:AsparagusToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 11200 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:AsparagusTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:AmericanHotLens  a              fresnel:Lens ;
+        owf:xpos                 9240 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:AmericanHot ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:HerbSpiceToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 6300 ;
+        owf:ypos                 858 ;
+        fresnel:classLensDomain  pizza:HerbSpiceTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:PolloAdAstraLens  a             fresnel:Lens ;
+        owf:xpos                 6160 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:PolloAdAstra ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:ArtichokeToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 9520 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:ArtichokeTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:HamToppingLens  a               fresnel:Lens ;
+        owf:xpos                 4200 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:HamTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:FruttiDiMareLens  a             fresnel:Lens ;
+        owf:xpos                 3640 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:FruttiDiMare ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasBase pizza:hasTopping pizza:hasIngredient pizza:isIngredientOf ) .
+
+:LeekToppingLens  a              fresnel:Lens ;
+        owf:xpos                 10080 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:LeekTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf ) .
+
+:CheeseyPizzaLens  a             fresnel:Lens ;
+        owf:xpos                 6580 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:CheeseyPizza ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:InterestingPizzaLens
+        a                        fresnel:Lens ;
+        owf:xpos                 3780 ;
+        owf:ypos                 232 ;
+        fresnel:classLensDomain  pizza:InterestingPizza ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
+
+:CheeseyVegetableToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 4760 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:CheeseyVegetableTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:AnchoviesToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 7000 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:AnchoviesTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ()
+ .
+
+:GoatsCheeseToppingLens
+        a                        fresnel:Lens ;
+        owf:xpos                 12320 ;
+        owf:ypos                 1088 ;
+        fresnel:classLensDomain  pizza:GoatsCheeseTopping ;
+        fresnel:group            :pizzaGroup ;
+        fresnel:hideProperties   ()
+         ;
+        fresnel:purpose          fresnel:defaultLens ;
+        fresnel:showProperties   ( pizza:isToppingOf pizza:hasIngredient pizza:isIngredientOf pizza:hasSpiciness pizza:hasCountryOfOrigin ) .
